@@ -5,12 +5,10 @@ function Model() {
 
   function handleModelPopup() {
     setOpen(!open);
-    console.log(!open);
   }
 
   const handleCancelBtn = () => {
     setOpen(!open);
-    console.log(!open);
   };
 
   return (
